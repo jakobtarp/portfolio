@@ -1,6 +1,11 @@
 body {
   background-color: #e1dfdd;
 }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 :root {
   --primary-clr: #f27f4c;
@@ -8,6 +13,76 @@ body {
 }
 
 /* Mobil */
+
+/* navbar og burger menu */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+li {
+  list-style: none;
+}
+a {
+  color: white;
+  text-decoration: none;
+  color: var(--primary-clr);
+}
+
+a h2 {
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+.nav-menu {
+  z-index: 2;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  gap: 25px;
+  right: -100%;
+  background-color: var(--secondary-clr);
+
+  align-items: center;
+  transition: 0.3s;
+  padding: 15% 0 0 0;
+}
+
+.burger {
+  display: flex;
+  background: none;
+  border: none;
+  z-index: 2;
+  justify-content: end;
+  width: 100%;
+  margin: 2% 5%;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  transition: all 0.3s ease-in-out;
+  background-color: var(--primary-clr);
+}
+
+.burger.active .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.burger.active .bar:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+.burger.active .bar:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+}
+.nav-menu.active {
+  right: 0;
+}
 
 /* Overskrift */
 
@@ -86,39 +161,14 @@ body {
   color: var(--secondary-clr);
   text-transform: uppercase;
   font-family: Arial, Helvetica, sans-serif;
-
   font-size: 1.6rem;
   letter-spacing: 1.5px;
 }
 
 img {
-  /* height: 100%; */
   width: 100%;
   padding-top: 30px;
   padding-bottom: 20px;
-}
-
-video {
-  height: 100%;
-  width: 100%;
-}
-
-.abouttest {
-  color: var(--secondary-clr);
-  text-align: start;
-  font-family: Arial, Helvetica, sans-serif;
-
-  font-size: 1rem;
-  letter-spacing: 1.5px;
-  letter-spacing: 1px;
-}
-
-.orange {
-  color: var(--primary-clr);
-  font-family: Arial, Helvetica, sans-serif;
-
-  font-size: 1rem;
-  letter-spacing: 1px;
 }
 
 .links {
@@ -150,30 +200,158 @@ video {
   font-size: 1rem;
   letter-spacing: 1.5px;
 }
-
-.mellemrum {
-  text-align: center;
-  color: var(--primary-clr);
-  text-transform: uppercase;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 2.7rem;
-  letter-spacing: 3px;
+#portfolio .container {
+  padding-left: 50px;
 }
 
-/* .flex {
+#portfolie .container {
   display: flex;
-  flex-flow: wrap-reverse;
+  width: 100%;
+  height: 50vh;
 }
 
-.flex figure {
-  flex-grow: 3;
+#portfolie .container2 {
+  display: flex;
+  width: 100%;
+  height: 50vh;
+  margin-bottom: 50px;
 }
 
-.gallery-2 {
-  display: grid;
+#portfolie .column1 {
+  display: flex;
+  margin-left: 20px;
+  text-align: center;
+}
 
-  grid-template-columns: repeat(3, 1fr);
-} */
+#portfolie .column2 {
+  display: flex;
+  margin-left: 20px;
+  text-align: center;
+}
+
+#portfolie .column3 {
+  display: flex;
+  margin-left: 20px;
+  text-align: center;
+}
+
+#portfolie .column4 {
+  display: flex;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+}
+
+#portfolie .felt1 {
+  position: relative;
+  background-image: url(billeder/techside.webp);
+  background-size: cover;
+  background-position: center;
+  width: 45vw;
+  height: 80%;
+  flex-grow: 1;
+  flex-basis: 400px;
+}
+
+#portfolie .felt2 {
+  position: relative;
+  background-image: url(billeder/spilforside.webp);
+  background-size: cover;
+  background-position: center;
+  width: 45vw;
+  height: 80%;
+  flex-grow: 1;
+  flex-basis: 400px;
+}
+
+#portfolie .felt3 {
+  position: relative;
+  background-image: url(billeder/redesign.webp);
+  background-size: cover;
+  background-position: center;
+  width: 45vw;
+  height: 80%;
+  flex-grow: 1;
+  flex-basis: 400px;
+}
+
+#portfolie .felt4 {
+  position: relative;
+  background-image: url(billeder/UX.webp);
+  background-size: cover;
+  background-position: center;
+  width: 45vw;
+  height: 80%;
+  flex-grow: 1;
+  flex-basis: 400px;
+}
+
+/*/ OVERLAYS /*/
+
+#portfolie .overlay1 {
+  position: absolute;
+  background-color: rgba(192, 192, 192, 0.5);
+  width: 100%;
+  height: 100%;
+}
+
+#portfolie .overlay1:hover {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+#portfolie .overlay2 {
+  position: absolute;
+  background-color: rgba(192, 192, 192, 0.5);
+  width: 100%;
+  height: 100%;
+}
+
+#portfolie .overlay2:hover {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+#portfolie .overlay3 {
+  position: absolute;
+  background-color: rgba(192, 192, 192, 0.5);
+  width: 100%;
+  height: 100%;
+}
+
+#portfolie .overlay3:hover {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+#portfolie .overlay4 {
+  position: absolute;
+  background-color: rgba(192, 192, 192, 0.5);
+  width: 100%;
+  height: 100%;
+}
+
+#portfolie .overlay4:hover {
+  background-color: rgba(0, 0, 0, 0);
+}
+/*/ FONT /*/
+
+#portfolie h3 {
+  background-color: var(--primary-clr);
+  font-size: 1.5em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  text-align: center;
+  top: 160px;
+  position: relative;
+}
+
+.txt h3 {
+  border-left: 0;
+  border-right: 0;
+  letter-spacing: 0.2em;
+  padding: 14px 10px;
+  position: relative;
+}
 
 /* My projects first website */
 
@@ -236,11 +414,12 @@ h2 {
   font-weight: 300;
 }
 
-p {
+.firstwebsitep {
   font-size: 0.9rem;
-  text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   color: var(--secondary-clr);
+  letter-spacing: 0.5px;
+  margin-bottom: 30px;
 }
 
 #web .box1 {
@@ -270,14 +449,38 @@ p {
 
 /* My projects redesign*/
 
-p {
-  letter-spacing: 0.5px;
+.box2 p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--secondary-clr);
+  font-size: 0.9rem;
   margin-bottom: 30px;
 }
 
 .processredesign img {
   height: 100%;
   width: 100%;
+}
+.redesign2 {
+  text-align: center;
+}
+.tekst {
+  padding-bottom: 5vw;
+  text-align: center;
+  padding-left: 15vw;
+  padding-right: 15vw;
+  /* line-height: 2em;
+  padding-top: 2vw;
+  font-size: 1em;
+  flex-direction: row;
+  position: relative;
+  justify-content: space-between; */
+}
+.footerp {
+  color: var(--primary-clr);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9rem;
+  text-align: center;
+  padding-bottom: 50px;
 }
 
 /*Desktop*/
@@ -373,50 +576,19 @@ p {
     letter-spacing: 1.5px;
   }
 
-  .about2 img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
-    height: 50%;
-    width: 50%;
-    padding-top: 30px;
-    padding-bottom: 20px;
-  }
-
-  .abouttest {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
-  }
-
-  .about2 {
-    text-align: center;
-    color: var(--secondary-clr);
-    text-align: start;
-    font-family: Arial, Helvetica, sans-serif;
-
-    letter-spacing: 1.5px;
-    letter-spacing: 1px;
-  }
-
-  .abouttest {
-    text-align: center;
-    color: var(--secondary-clr);
-    text-align: start;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-
   .orange {
     color: var(--primary-clr);
     font-family: Arial, Helvetica, sans-serif;
 
     letter-spacing: 1px;
   }
-
   .links {
     padding-top: 20px;
+  }
+
+  .acting {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
   }
 
   a {
@@ -427,15 +599,10 @@ p {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    /* padding-left: 450px; */
-  }
-
-  .abouttest {
-    font-size: 1rem;
   }
 
   .orange {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
 
   /* My projects  */
@@ -534,7 +701,7 @@ p {
 
   #portfolie .felt4 {
     position: relative;
-    background-image: url(billeder/Web\ 1920\ –\ 1.png);
+    background-image: url(billeder/UX.webp);
     background-size: cover;
     background-position: center;
     width: 45vw;
@@ -666,10 +833,11 @@ p {
     font-weight: 300;
   }
 
-  p {
+  .animationsp p {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     color: var(--secondary-clr);
+    font-size: 0.9rem;
   }
 
   #web .box1 {
@@ -697,6 +865,11 @@ p {
 
   /* Redesign */
 
+  .redesignlink {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-decoration: underline;
+  }
   .row {
     display: flex;
   }
@@ -712,5 +885,101 @@ p {
 
   .redesign2 {
     text-align: center;
+  }
+
+  .tekst {
+    padding-bottom: 5vw;
+    text-align: center;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    line-height: 2em;
+    padding-top: 2vw;
+    font-size: 1em;
+    flex-direction: row;
+    position: relative;
+    justify-content: space-between;
+  }
+
+  /* Nav menu */
+
+  .nav-menu {
+    text-align: center;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    width: 19%;
+    height: 100%;
+    gap: 5px;
+    right: -100%;
+    background-color: var(--secondary-clr);
+
+    transition: 0.3s;
+    padding: 20% 0 0 0;
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  li {
+    list-style: none;
+  }
+  a {
+    color: white;
+    text-decoration: none;
+    color: var(--primary-clr);
+  }
+
+  a h2 {
+    font-weight: normal;
+    text-transform: uppercase;
+  }
+  .burger {
+    display: flex;
+    background: none;
+    border: none;
+
+    justify-content: end;
+    width: 100%;
+    margin: 2% 1.9%;
+  }
+
+  .bar {
+    display: block;
+    width: 50px;
+    height: 4px;
+    margin: 13px auto;
+    transition: all 0.3s ease-in-out;
+    background-color: var(--primary-clr);
+  }
+
+  a h2 {
+    font-weight: normal;
+    font-size: 1.7rem;
+  }
+
+  .burger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .burger.active .bar:nth-child(1) {
+    transform: translateY(13px) rotate(45deg);
+  }
+  .burger.active .bar:nth-child(3) {
+    transform: translateY(-22px) rotate(-45deg);
+  }
+
+  .nav-menu.active {
+    right: 0%;
+  }
+
+  /* Footer */
+
+  .footerp {
+    color: var(--primary-clr);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    padding-bottom: 50px;
   }
 }
