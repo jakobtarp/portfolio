@@ -1,0 +1,716 @@
+body {
+  background-color: #e1dfdd;
+}
+
+:root {
+  --primary-clr: #f27f4c;
+  --secondary-clr: #707070;
+}
+
+/* Mobil */
+
+/* Overskrift */
+
+.jakob {
+  color: var(--primary-clr);
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+
+  font-size: 2.5rem;
+  letter-spacing: 3px;
+}
+
+.multi {
+  color: var(--secondary-clr);
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+
+  font-size: 1rem;
+  letter-spacing: 1.5px;
+}
+
+.design {
+  color: var(--secondary-clr);
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+
+  font-size: 1rem;
+  letter-spacing: 1.5px;
+}
+
+.student {
+  color: var(--secondary-clr);
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+
+  font-size: 1rem;
+  letter-spacing: 1.5px;
+}
+
+/* Portfolio skrift */
+
+.port {
+  text-align: center;
+  color: var(--secondary-clr);
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+
+  font-size: 2.5rem;
+  letter-spacing: 3px;
+  padding-top: 350px;
+}
+
+.folio {
+  text-align: center;
+  color: var(--primary-clr);
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+
+  font-size: 2.5rem;
+  letter-spacing: 3px;
+  padding-top: 350px;
+}
+
+/* About me  */
+
+.about {
+  color: var(--primary-clr);
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+
+  font-size: 2.5rem;
+  letter-spacing: 3px;
+}
+
+.me {
+  color: var(--secondary-clr);
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+
+  font-size: 1.6rem;
+  letter-spacing: 1.5px;
+}
+
+img {
+  /* height: 100%; */
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+video {
+  height: 100%;
+  width: 100%;
+}
+
+.abouttest {
+  color: var(--secondary-clr);
+  text-align: start;
+  font-family: Arial, Helvetica, sans-serif;
+
+  font-size: 1rem;
+  letter-spacing: 1.5px;
+  letter-spacing: 1px;
+}
+
+.orange {
+  color: var(--primary-clr);
+  font-family: Arial, Helvetica, sans-serif;
+
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+
+.links {
+  font-size: 0.8rem;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.links a {
+  text-transform: uppercase;
+  color: var(--primary-clr);
+}
+
+/* My projects  */
+
+.my {
+  color: var(--primary-clr);
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2.5rem;
+  letter-spacing: 3px;
+}
+
+.projects {
+  color: var(--secondary-clr);
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  letter-spacing: 1.5px;
+}
+
+.mellemrum {
+  text-align: center;
+  color: var(--primary-clr);
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2.7rem;
+  letter-spacing: 3px;
+}
+
+/* .flex {
+  display: flex;
+  flex-flow: wrap-reverse;
+}
+
+.flex figure {
+  flex-grow: 3;
+}
+
+.gallery-2 {
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr);
+} */
+
+/* My projects first website */
+
+.first {
+  text-align: start;
+  color: var(--secondary-clr);
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  letter-spacing: 1.5px;
+}
+
+.process {
+  color: var(--primary-clr);
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+
+.techscreendumps {
+  color: var(--secondary-clr);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+}
+
+.orangebig {
+  color: var(--primary-clr);
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  font-size: 1rem;
+  letter-spacing: 3px;
+}
+
+#web {
+  display: block;
+
+  background-size: contain;
+}
+
+#web a {
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--primary-clr);
+}
+
+h3 {
+  font-size: 1rem;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--primary-clr);
+}
+
+h2 {
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--primary-clr);
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+p {
+  font-size: 0.9rem;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--secondary-clr);
+}
+
+#web .box1 {
+  padding-bottom: 5vw;
+  text-align: center;
+  padding-left: 15vw;
+  padding-right: 15vw;
+  line-height: 2em;
+  padding-top: 2vw;
+  font-size: 1em;
+  flex-direction: row;
+  position: relative;
+  justify-content: space-between;
+}
+
+#web .box2 {
+  padding-left: 20vw;
+  position: relative;
+  margin-right: 9vw;
+  left: -5vw;
+  top: -3vw;
+  display: block;
+  flex-direction: row;
+}
+
+/* My projects annimations*/
+
+/* My projects redesign*/
+
+p {
+  letter-spacing: 0.5px;
+  margin-bottom: 30px;
+}
+
+.processredesign img {
+  height: 100%;
+  width: 100%;
+}
+
+/*Desktop*/
+
+/* Forside */
+
+@media (min-width: 1025px) {
+  .jakob {
+    color: var(--primary-clr);
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3.5rem;
+    letter-spacing: 3px;
+  }
+
+  .multi {
+    color: var(--secondary-clr);
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-size: 1.5rem;
+    letter-spacing: 1.5px;
+  }
+  .design {
+    color: var(--secondary-clr);
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-size: 1.5rem;
+    letter-spacing: 1.5px;
+  }
+
+  .student {
+    color: var(--secondary-clr);
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-size: 1.5rem;
+    letter-spacing: 1.5px;
+  }
+
+  .port {
+    text-align: center;
+    color: var(--secondary-clr);
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-size: 3rem;
+    letter-spacing: 3px;
+    padding-top: 350px;
+  }
+
+  .folio {
+    text-align: center;
+    color: var(--primary-clr);
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-size: 3rem;
+    letter-spacing: 3px;
+    padding-top: 350px;
+  }
+
+  /* About me  */
+
+  /* .grid {
+    display: grid;
+    grid-template-columns: repeat(1fr, 1fr);
+  }
+
+  .image {
+    grid-area: 1 / 1 / 6 / 4;
+  }
+  .abouttest {
+    grid-area: 1 / 4 / 6 / 6;
+  } */
+
+  .about {
+    color: var(--primary-clr);
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-size: 3rem;
+    letter-spacing: 3px;
+  }
+
+  .me {
+    color: var(--secondary-clr);
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-size: 1.5rem;
+    letter-spacing: 1.5px;
+  }
+
+  .about2 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: 50%;
+    width: 50%;
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+
+  .abouttest {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+
+  .about2 {
+    text-align: center;
+    color: var(--secondary-clr);
+    text-align: start;
+    font-family: Arial, Helvetica, sans-serif;
+
+    letter-spacing: 1.5px;
+    letter-spacing: 1px;
+  }
+
+  .abouttest {
+    text-align: center;
+    color: var(--secondary-clr);
+    text-align: start;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .orange {
+    color: var(--primary-clr);
+    font-family: Arial, Helvetica, sans-serif;
+
+    letter-spacing: 1px;
+  }
+
+  .links {
+    padding-top: 20px;
+  }
+
+  a {
+    font-size: larger;
+    padding: 10px;
+    text-transform: uppercase;
+    color: var(--primary-clr);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* padding-left: 450px; */
+  }
+
+  .abouttest {
+    font-size: 1rem;
+  }
+
+  .orange {
+    font-size: 1rem;
+  }
+
+  /* My projects  */
+
+  .my {
+    color: var(--primary-clr);
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-size: 3.5rem;
+    letter-spacing: 3px;
+  }
+
+  .projects {
+    color: var(--secondary-clr);
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-size: 2rem;
+    letter-spacing: 1.5px;
+  }
+  #portfolio .container {
+    padding-left: 50px;
+  }
+
+  #portfolie .container {
+    display: flex;
+    width: 100%;
+    height: 50vh;
+  }
+
+  #portfolie .container2 {
+    display: flex;
+    width: 100%;
+    height: 50vh;
+    margin-bottom: 50px;
+  }
+
+  #portfolie .column1 {
+    display: flex;
+    margin-left: 20px;
+    text-align: center;
+  }
+
+  #portfolie .column2 {
+    display: flex;
+    margin-left: 20px;
+    text-align: center;
+  }
+
+  #portfolie .column3 {
+    display: flex;
+    margin-left: 20px;
+    text-align: center;
+  }
+
+  #portfolie .column4 {
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+  }
+
+  #portfolie .felt1 {
+    position: relative;
+    background-image: url(billeder/techside.webp);
+    background-size: cover;
+    background-position: center;
+    width: 45vw;
+    height: 80%;
+    flex-grow: 1;
+    flex-basis: 400px;
+  }
+
+  #portfolie .felt2 {
+    position: relative;
+    background-image: url(billeder/spilforside.webp);
+    background-size: cover;
+    background-position: center;
+    width: 45vw;
+    height: 80%;
+    flex-grow: 1;
+    flex-basis: 400px;
+  }
+
+  #portfolie .felt3 {
+    position: relative;
+    background-image: url(billeder/redesign.webp);
+    background-size: cover;
+    background-position: center;
+    width: 45vw;
+    height: 80%;
+    flex-grow: 1;
+    flex-basis: 400px;
+  }
+
+  #portfolie .felt4 {
+    position: relative;
+    background-image: url(billeder/Web\ 1920\ –\ 1.png);
+    background-size: cover;
+    background-position: center;
+    width: 45vw;
+    height: 80%;
+    flex-grow: 1;
+    flex-basis: 400px;
+  }
+
+  /*/ OVERLAYS /*/
+
+  #portfolie .overlay1 {
+    position: absolute;
+    background-color: rgba(192, 192, 192, 0.5);
+    width: 100%;
+    height: 100%;
+  }
+
+  #portfolie .overlay1:hover {
+    background-color: rgba(0, 0, 0, 0);
+  }
+
+  #portfolie .overlay2 {
+    position: absolute;
+    background-color: rgba(192, 192, 192, 0.5);
+    width: 100%;
+    height: 100%;
+  }
+
+  #portfolie .overlay2:hover {
+    background-color: rgba(0, 0, 0, 0);
+  }
+
+  #portfolie .overlay3 {
+    position: absolute;
+    background-color: rgba(192, 192, 192, 0.5);
+    width: 100%;
+    height: 100%;
+  }
+
+  #portfolie .overlay3:hover {
+    background-color: rgba(0, 0, 0, 0);
+  }
+
+  #portfolie .overlay4 {
+    position: absolute;
+    background-color: rgba(192, 192, 192, 0.5);
+    width: 100%;
+    height: 100%;
+  }
+
+  #portfolie .overlay4:hover {
+    background-color: rgba(0, 0, 0, 0);
+  }
+  /*/ FONT /*/
+
+  #portfolie h3 {
+    background-color: var(--primary-clr);
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    text-align: center;
+    top: 160px;
+    position: relative;
+  }
+
+  .txt h3 {
+    border-left: 0;
+    border-right: 0;
+    letter-spacing: 0.2em;
+    padding: 14px 10px;
+    position: relative;
+  }
+
+  /* First website / Animations */
+
+  .first {
+    text-align: start;
+    color: var(--secondary-clr);
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    letter-spacing: 1.5px;
+  }
+
+  .process {
+    color: var(--primary-clr);
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-size: 1rem;
+    letter-spacing: 1px;
+  }
+
+  .techscreendumps {
+    color: var(--secondary-clr);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+  }
+
+  .orangebig {
+    color: var(--primary-clr);
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 2rem;
+    letter-spacing: 3px;
+  }
+
+  #web {
+    display: block;
+
+    background-size: contain;
+  }
+
+  h3 {
+    font-weight: 2rem;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--primary-clr);
+  }
+
+  h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--primary-clr);
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 300;
+  }
+
+  p {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--secondary-clr);
+  }
+
+  #web .box1 {
+    padding-bottom: 5vw;
+    text-align: center;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    line-height: 2em;
+    padding-top: 2vw;
+    font-size: 1em;
+    flex-direction: row;
+    position: relative;
+    justify-content: space-between;
+  }
+
+  #web .box2 {
+    padding-left: 20vw;
+    position: relative;
+    margin-right: 9vw;
+    left: -5vw;
+    top: -3vw;
+    display: block;
+    flex-direction: row;
+  }
+
+  /* Redesign */
+
+  .row {
+    display: flex;
+  }
+
+  .column {
+    flex: 33.33%;
+    padding: 40px;
+  }
+
+  .processredesign {
+    padding: 30px;
+  }
+
+  .redesign2 {
+    text-align: center;
+  }
+}
