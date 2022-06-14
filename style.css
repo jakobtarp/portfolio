@@ -111,6 +111,7 @@ a h2 {
 }
 
 .jakob {
+  padding: 10px;
   color: var(--primary-clr);
   text-transform: uppercase;
   font-family: Arial, Helvetica, sans-serif;
@@ -173,6 +174,7 @@ a h2 {
 /* About me  */
 
 .about {
+  padding: 10px;
   color: var(--primary-clr);
   text-transform: uppercase;
   font-family: Arial, Helvetica, sans-serif;
@@ -210,6 +212,7 @@ img {
 /* My projects  */
 
 .my {
+  padding: 10px;
   color: var(--primary-clr);
   text-transform: uppercase;
   font-family: Arial, Helvetica, sans-serif;
@@ -396,7 +399,6 @@ img {
   color: var(--primary-clr);
   text-transform: uppercase;
   font-family: Arial, Helvetica, sans-serif;
-
   font-size: 1rem;
   letter-spacing: 1px;
 }
