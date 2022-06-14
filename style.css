@@ -86,6 +86,24 @@ a h2 {
 
 /* Overskrift */
 
+.scrolld {
+  font-size: 1rem;
+}
+
+.pil {
+  width: 4%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.orange2 {
+  color: var(--primary-clr);
+}
+
+.grey1 {
+  color: var(--secondary-clr);
+}
+
 .jakob {
   color: var(--primary-clr);
   text-transform: uppercase;
@@ -201,7 +219,7 @@ img {
   letter-spacing: 1.5px;
 }
 #portfolio .container {
-  padding-left: 50px;
+  padding-left: 40px;
 }
 
 #portfolie .container {
@@ -243,6 +261,7 @@ img {
 }
 
 #portfolie .felt1 {
+  font-size: 0.8rem;
   position: relative;
   background-image: url(billeder/techside.webp);
   background-size: cover;
@@ -254,6 +273,7 @@ img {
 }
 
 #portfolie .felt2 {
+  font-size: 0.8rem;
   position: relative;
   background-image: url(billeder/spilforside.webp);
   background-size: cover;
@@ -265,6 +285,7 @@ img {
 }
 
 #portfolie .felt3 {
+  font-size: 0.8rem;
   position: relative;
   background-image: url(billeder/redesign.webp);
   background-size: cover;
@@ -276,6 +297,7 @@ img {
 }
 
 #portfolie .felt4 {
+  font-size: 0.8rem;
   position: relative;
   background-image: url(billeder/UX.webp);
   background-size: cover;
@@ -373,6 +395,9 @@ img {
   letter-spacing: 1px;
 }
 
+.box2 {
+  text-align: center;
+}
 .techscreendumps {
   color: var(--secondary-clr);
   font-family: Arial, Helvetica, sans-serif;
@@ -449,6 +474,17 @@ h2 {
 
 /* My projects redesign*/
 
+.redesignlink {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.beforeafter {
+  text-align: center;
+  margin-bottom: -15px;
+}
+
 .box2 p {
   font-family: Arial, Helvetica, sans-serif;
   color: var(--secondary-clr);
@@ -462,6 +498,7 @@ h2 {
 }
 .redesign2 {
   text-align: center;
+  margin-bottom: -15px;
 }
 .tekst {
   padding-bottom: 5vw;
@@ -494,6 +531,17 @@ h2 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 3.5rem;
     letter-spacing: 3px;
+  }
+
+  .scrolld {
+    font-size: 1rem;
+  }
+
+  .pil {
+    width: 4%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .multi {
