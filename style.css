@@ -537,6 +537,7 @@ h2 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 3.5rem;
     letter-spacing: 3px;
+    padding: 15px;
   }
 
   .scrolld {
@@ -604,19 +605,8 @@ h2 {
 
   /* About me  */
 
-  /* .grid {
-    display: grid;
-    grid-template-columns: repeat(1fr, 1fr);
-  }
-
-  .image {
-    grid-area: 1 / 1 / 6 / 4;
-  }
-  .abouttest {
-    grid-area: 1 / 4 / 6 / 6;
-  } */
-
   .about {
+    padding: 15px;
     color: var(--primary-clr);
     text-transform: uppercase;
     font-family: Arial, Helvetica, sans-serif;
@@ -666,6 +656,7 @@ h2 {
   /* My projects  */
 
   .my {
+    padding: 15px;
     color: var(--primary-clr);
     text-transform: uppercase;
     font-family: Arial, Helvetica, sans-serif;
