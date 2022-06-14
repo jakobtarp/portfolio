@@ -14,7 +14,7 @@ body {
 
 /* Mobil */
 
-/* navbar og burger menu */
+/* navbar og burgermenu */
 
 .navbar {
   display: flex;
@@ -477,9 +477,7 @@ h2 {
   flex-direction: row;
 }
 
-/* My projects annimations*/
-
-/* My projects redesign*/
+/* My projects annimations*/ /* My projects redesign*/
 
 .redesignlink {
   font-family: Arial, Helvetica, sans-serif;
@@ -512,13 +510,15 @@ h2 {
   text-align: center;
   padding-left: 15vw;
   padding-right: 15vw;
-  /* line-height: 2em;
-  padding-top: 2vw;
-  font-size: 1em;
-  flex-direction: row;
-  position: relative;
-  justify-content: space-between; */
 }
+
+.before {
+  padding-left: 8vw;
+  padding-right: 8vw;
+}
+
+/* footer mobil */
+
 .footerp {
   color: var(--primary-clr);
   font-family: Arial, Helvetica, sans-serif;
@@ -527,7 +527,7 @@ h2 {
   padding-bottom: 50px;
 }
 
-/*Desktop*/
+/*---------Desktop---------*/
 
 /* Forside */
 
@@ -760,7 +760,7 @@ h2 {
     flex-basis: 400px;
   }
 
-  /*/ OVERLAYS /*/
+  /*/ Overlays / My projects /*/
 
   #portfolie .overlay1 {
     position: absolute;
@@ -805,7 +805,7 @@ h2 {
   #portfolie .overlay4:hover {
     background-color: rgba(0, 0, 0, 0);
   }
-  /*/ FONT /*/
+  /*/ Font /*/
 
   #portfolie h3 {
     background-color: var(--primary-clr);
