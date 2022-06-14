@@ -87,11 +87,17 @@ a h2 {
 /* Overskrift */
 
 .scrolld {
-  font-size: 1rem;
+  padding-top: 20px;
+  text-transform: uppercase;
+
+  font-size: 0.8rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--secondary-clr);
+  text-align: center;
 }
 
 .pil {
-  width: 4%;
+  width: 6%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -534,7 +540,11 @@ h2 {
   }
 
   .scrolld {
-    font-size: 1rem;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--secondary-clr);
+    text-align: center;
   }
 
   .pil {
@@ -867,7 +877,6 @@ h2 {
   }
 
   h3 {
-    font-weight: 2rem;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     color: var(--primary-clr);
